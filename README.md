@@ -2,10 +2,30 @@
 
 ## Table of contents
 
+- [Problem Statement](#problem-statement)
+- [Data Sources](#data-sources)
+- [Tools](#tools)
+- [Entity Relationship Diagram](#entity-relationship-diagram)
+- [Questions And SQL Queries](#questions-and-queries)
+- [Results/Findings](#resultsfindings)
+- [Recommendations](#recommendations)
+
 ### Problem Statement
+
+They company is looking to use its historical orders, customers and membership data to answer some questions, which will provide more insight into the business. The comapany wants to gather information that will help them understand their customers better and thereby improve their customer encounters and offerings. The company is also considering investing in customer membership; therefore, this task is a critical project for the company. 
+
+### Data Sources
+
+Since the main purpose was to execute differents SQL queries, the datesets used was not complex and were manually coded in the query when creating database and tables.  
+
+### Tools
+
+- QuickDBD
+- MySQL
+  
 ### Entity Relationship Diagram
 
-### Questions And Queries
+### Questions And SQL Queries
 
 1. What is the total amount spent by each customer?
 ```sql
@@ -151,6 +171,10 @@ The company also requires the ranking of products.
 
 <img width="1440" alt="NotNullRanking" src="https://github.com/JeanBonheur01/MySQL_CustomerBehaviour/assets/131664311/b2e98c77-1c0b-406a-929e-eaef011dffcc">
 
+### Results/Findings
+### Recommendations
+
+💻🖱️💻🤖💻🖱️💻🤖💻
 
 
 
