@@ -6,7 +6,7 @@
 - [Data Sources](#data-sources)
 - [Tools](#tools)
 - [Entity Relationship Diagram](#entity-relationship-diagram)
-- [Questions And SQL Queries](#questions-and-queries)
+- [Questions And SQL Queries](#questions-and-SQL-queries)
 - [Results/Findings](#resultsfindings)
 - [Recommendations](#recommendations)
 
@@ -24,6 +24,8 @@ Since the main purpose was to execute differents SQL queries, the datesets used 
 - MySQL
   
 ### Entity Relationship Diagram
+
+![QuickDBD-Resto_schemaDB](https://github.com/JeanBonheur01/MySQL_CustomerBehaviour/assets/131664311/8a34ff3a-941f-4090-9fae-f3d82992e288)
 
 ### Questions And SQL Queries
 
