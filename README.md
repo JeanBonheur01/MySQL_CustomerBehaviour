@@ -48,12 +48,38 @@ join menu m on m.product_id = s.product_id;
 ```
  
 4. What is the most purchased item on the menu and how many times was it purchased by all customers?
+```sql
+select 
+	m.product_name, count(*) as total_purchased
+from 
+	sales s
+join menu m on s.product_id = m.product_id
+group by 
+	m.product_name
+order by 
+	total_purchased desc limit 1;
+```
 
+5. Which item was the most popular for each customer?
+```
+with customer_popularity as (
+	select 
+		s.customer_id, m.product_name, count(*) as purchase_count, 
+		dense_rank() over(partition by s.customer_id order by count(*) desc) as rank_I
+	from 
+		sales s
+	join menu m on s.product_id = m.product_id
+	group by 
+		s.customer_id, m.product_name) 
+select
+	cp.customer_id, cp.product_name, cp.purchase_count
+from
+	customer_popularity cp
+where rank_I = 1;
+```
+NB! Since customer B bought several products the same amount of time, we use the function DENSE_RANK instead of ROW_NUMBER to avoid getting only one ranked purchased product.
 
-6. Which item was the most popular for each customer?
-
-
-7. Which item was purchased first by the customer after they became a member?
+6. Which item was purchased first by the customer after they became a member?
 
 
 8. Which item was purchased just before the customer became a member?
