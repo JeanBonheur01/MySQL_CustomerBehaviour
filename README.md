@@ -8,33 +8,64 @@
 ### Questions And Queries
 
 1. What is the total amount spent by each customer?
-
-
+```sql
+select 
+	s.customer_id, sum(m.price) as total_spend
+from 
+	sales s
+join menu m	
+on 	m.product_id = s.product_id
+group by
+	s.customer_id;
+```
 
 2. How many days does each customer visit the restaurant?
+```sql
+select 
+	customer_id, count(distinct s.order_date) as days_visited
+from 
+	sales s
+group by 
+	customer_id;
+```
    
 3. What was the first item from the menu purchased by each customer?
-
-   
+```sql
+with customer_first_purchase as (
+	select 
+		s.customer_id, min(s.order_date) as first_purchase_date
+	from 
+		sales s
+	group by 
+		s.customer_id)
+select 
+	cfp.customer_id, cfp.first_purchase_date, m.product_name
+from 
+	customer_first_purchase cfp
+join sales s on s.customer_id = cfp.customer_id
+and cfp.first_purchase_date = s.order_date
+join menu m on m.product_id = s.product_id;
+```
+ 
 4. What is the most purchased item on the menu and how many times was it purchased by all customers?
 
 
-5. Which item was the most popular for each customer?
+6. Which item was the most popular for each customer?
 
 
-6. Which item was purchased first by the customer after they became a member?
+7. Which item was purchased first by the customer after they became a member?
 
 
-7. Which item was purchased just before the customer became a member?
+8. Which item was purchased just before the customer became a member?
 
 
-8. What are the total items and amount spent for each member before they became a member?
+9. What are the total items and amount spent for each member before they became a member?
 
 
-9. If each $1 spent equates to 10 points and sushi has a 2x points multiplier, how many points would each customer have?
+10. If each $1 spent equates to 10 points and sushi has a 2x points multiplier, how many points would each customer have?
 
 
-10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customers A and B have at the end of April?
+11. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customers A and B have at the end of April?
 The company also requires the ranking of products.
 
 <img width="1440" alt="numberofpoints" src="https://github.com/JeanBonheur01/MySQL_CustomerBehaviour/assets/131664311/a9e0fd08-bd2b-448f-aafd-3d8bbc889b73">
