@@ -9,6 +9,7 @@
 - [Questions And SQL Queries](#questions-and-SQL-queries)
 - [Results/Findings](#resultsfindings)
 - [Recommendations](#recommendations)
+- [Conclusion](#conclusion)
 
 ### Problem Statement
 
@@ -174,7 +175,28 @@ The company also requires the ranking of products.
 <img width="1440" alt="NotNullRanking" src="https://github.com/JeanBonheur01/MySQL_CustomerBehaviour/assets/131664311/b2e98c77-1c0b-406a-929e-eaef011dffcc">
 
 ### Results/Findings
+
+- Customer A spends more in the restaurant, while customer B is tle most frequent visitor. This does not differ much, as B has made 6 visits while A has made 4 visits.
+  
+- Customers A and B are also members of the company, where B had more visits and purchases before becomming a menber, while A has been more active after becoming a member.
+  
+- The restaurant´s most popular item is "Ramen", followed by curry and sushi.
+  
+- Customer A and C tend to buy more Ramen, while customer B purchases a more equal variety of items.
+  
+- Customers A has more points in the members club in compared to B; customer C is not yet a menber.
+   
 ### Recommendations
+
+- Since customers A and B visit and spend more at the restaurant and are already members, the company should invest more on them due to their loyalty and dedication. It's easier and cheaper to retain existing customers than attract new ones. For exmaple, the company could offer them more frequent discounts on their favorit items and improve customer services.
+  
+- To attracte more customers to its membership group, the company should focus on providing customer-oriented service, e.g to C, to enhance tehir experience and potentially turn them into future members.
+- As "Ramen" is the most popular item, the company should allocate most resources to it to ensure positive cash flow. For instance, always ensuring ingredients for Ramen are available in stock.
+- They company should also analyze why other items are not selling as well and determine which strateggies to take to increase the sales of other items on the menu. For exmaple, by improving the recipes and quality of the food, etc.
+
+### Conclusion
+
+In general, the company has to take into consideration these data analystics findings and continue to be data-driven in its processes in order to enhance its decision-making, productivity, and efficiency in the business. This is also crutical for better understanding its customers, gaining competitive advantages, and ultimately being ready to detect new trends and enhance its busniess planning. Utilizing data to understand the business and its customers will enable the restaurant to adapt and offer better service that meets customers' expectations, manage competition in a more suitable and sustainable way, which is crucial for the the company's long-term survival. 
 
 💻🖱️💻🤖💻🖱️💻🤖💻
 
