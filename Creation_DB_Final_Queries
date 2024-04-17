@@ -1,3 +1,4 @@
+```
 --0 Creation of the new database and tables: 
 
 CREATE DATABASE wok_sushi;
@@ -203,3 +204,4 @@ case when member= 'N' then null
 else rank() over(partition by customer_id, member order by order_date) end as ranking 
 from customers_data
 order by customer_id, order_date; 
+```
