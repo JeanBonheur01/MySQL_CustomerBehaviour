@@ -1,4 +1,4 @@
-```
+```sql
 --0 Creation of the new database and tables: 
 
 CREATE DATABASE wok_sushi;
