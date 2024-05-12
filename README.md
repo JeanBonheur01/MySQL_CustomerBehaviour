@@ -13,7 +13,7 @@
 
 ### Problem Statement
 
-They company is looking to use its historical orders, customers and membership data to answer some questions, which will provide more insight into the business. The comapany wants to gather information that will help them understand their customers better and thereby improve their customer encounters and offerings. The company is also considering investing in customer membership; therefore, this task is a critical project for the company. 
+The company is looking to use its historical orders, customers and membership data to answer some questions, which will provide more insight into the business. The comapany wants to gather information that will help them understand their customers better and thereby improve their customer encounters and offerings. The company is also considering investing in customer membership; therefore, this task is a critical project for the company. 
 
 ### Data Sources
 
