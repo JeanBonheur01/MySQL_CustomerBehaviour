@@ -191,7 +191,7 @@ group by s.customer_id;
   
 - To attracte more customers to its membership group, the company should focus on providing customer-oriented service, e.g to C, to enhance their experience and potentially turn them into future members.
 - As "Ramen" is the most popular item, the company should allocate most resources to it to ensure positive cash flow. For instance, always ensuring ingredients for Ramen are available in stock.
-- They company should also analyze why other items are not selling as well and determine which strateggies to take to increase the sales of other items on the menu. For exmaple, by improving the recipes and quality of the food, etc.
+- The company should also analyze why other items are not selling as well and determine which strateggies to take to increase the sales of other items on the menu. For exmaple, by improving the recipes and quality of the food, etc.
 
 ### Conclusion
 
