@@ -166,7 +166,6 @@ group by s.customer_id;
 ```
 
 10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customers A and B have at the end of April?
-The company also requires the ranking of products.
 
 <img width="1440" alt="numberofpoints" src="https://github.com/JeanBonheur01/MySQL_CustomerBehaviour/assets/131664311/a9e0fd08-bd2b-448f-aafd-3d8bbc889b73">
 
