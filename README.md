@@ -183,7 +183,7 @@ group by s.customer_id;
   
 - Customer A and C tend to buy more Ramen, while customer B purchases a more equal variety of items.
   
-- Customers A has more points in the members club compared to B; customer C is not yet a menber.
+- Customers A has more points in the members club compared to B; customer C is not yet a member.
    
 ### Recommendations
 
